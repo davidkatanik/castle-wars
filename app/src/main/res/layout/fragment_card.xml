@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="davidkatanik.vsb.cz.fragments.CardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="left|top"
+        android:id="@+id/llCards"
+        android:measureWithLargestChild="false" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibC1"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibC2"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:id="@+id/ibC3"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibC4"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibC5"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:longClickable="false"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibC6"
+            android:layout_alignBottom="@+id/llCards"
+            android:layout_alignParentStart="true"
+            android:minHeight="80dp"
+            android:minWidth="60dp"
+            android:maxHeight="80dp"
+            android:maxWidth="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="0dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/cardback"
+            android:onClick="onCardClick" />
+    </LinearLayout>
+</FrameLayout>

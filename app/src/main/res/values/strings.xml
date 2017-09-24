@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Castle Wars</string>
+    <string name="new_game">Nová hra</string>
+    <string name="settings">Nastavení</string>
+    <string name="statistics">Statistiky</string>
+    <string name="about">O hře</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_statistics_unit">StatisticsUnitActivity</string>
+    <string name="appName">Castle Wars</string>
+</resources>
